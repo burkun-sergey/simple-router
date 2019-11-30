@@ -1,0 +1,21 @@
+{
+	"name" : "burkun-sergey/simple-router",
+	"description" : "Simple router",
+	"minimum-stability" : "stable",
+	"license" : "free",
+	"version" : "0.0.1",
+	"authors" : [{
+			"name" : "Burkun Sergey",
+			"email" : "sergey_program@mail.ru"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"BSer\\" : "src/BSer",
+			"" : "tests/"
+		}
+	},
+	"require" : {
+		"php" : ">=7.1"
+	}
+}
